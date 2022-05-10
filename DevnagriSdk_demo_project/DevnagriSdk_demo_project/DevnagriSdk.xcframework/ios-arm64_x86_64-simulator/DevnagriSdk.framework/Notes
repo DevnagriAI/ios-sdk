@@ -1,0 +1,16 @@
+-How to create xcframework
+1. Build Settings / Build Libraries for Distribution set YES
+2. Build Settings / Skip Install set NO
+3. Open termnial
+
+*Remove exist xcframework
+  rm  -rf /tmp/xcf/
+
+
+xcodebuild archive -scheme DevnagriSdk -destination="iOS" -archivePath /tmp/xcf/ios.xcarchive -derivedDataPath /tmp/iphoneos -sdk iphoneos SKIP_INSTALL=NO
+
+
+xcodebuild archive -scheme DevnagriSdk -destination="iOS Simulator" -archivePath /tmp/xcf/iossimulator.xcarchive -derivedDataPath /tmp/iphoneos -sdk iphonesimulator SKIP_INSTALL=NO
+
+
+xcodebuild -create-xcframework -framework /tmp/xcf/ios.xcarchive/Products/Library/Frameworks/DevnagriSdk.framework -framework /tmp/xcf/iossimulator.xcarchive/Products/Library/Frameworks/DevnagriSdk.framework -output DevnagriSdk.xcframework

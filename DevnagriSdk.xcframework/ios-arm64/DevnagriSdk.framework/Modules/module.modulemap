@@ -1,0 +1,11 @@
+framework module DevnagriSdk {
+  umbrella header "DevnagriSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module DevnagriSdk.Swift {
+    header "DevnagriSdk-Swift.h"
+    requires objc
+}
