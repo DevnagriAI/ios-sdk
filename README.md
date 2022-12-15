@@ -48,7 +48,9 @@ Initialize the SDK by calling the following code in your didFinishLaunchingWithO
 For auto update strings translations you can set time in minutes.
 
      func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-         DevnagriSDK.shared.initSdk(apiKey:String, updateStringsTime:Int)
+            DevnagriSDK.shared.initSdk(apiKey: String, updateStringTime:Int?) { isInitialized, message in
+            
+            }
      }
      
 # Default Localisation Override
@@ -57,7 +59,9 @@ For auto update strings translations you can set time in minutes.
 # Change Language
 In case you don't want to use the system language, you can set a different language in the updateAppLocale method. The language code (locale) needs to be present in a release from Devnagri.
 
-      DevnagriSDK.shared.updateAppLocale(code: "hi")
+            DevnagriSDK.shared.updateAppLocale(code: "hi") { isUpdated, message in
+                //do here...
+            }
       
   Please note that you will see the english text back if your device language is english and you have not set any specific language for the SDK. To get the translation in Hindi, Please update app locale to Hindi as per above method.
   
@@ -65,11 +69,6 @@ In case you don't want to use the system language, you can set a different langu
 In case you want to know which language code currently used by application.
 
      let currentLanguageCode = DevnagriSDK.shared.getCurrentApplicationLanguageCode()
-
-# Update Translations
-In case you want to update all english localisation strings translations to supported language.  
-
-    DevnagriSDK.shared.updateTranslations()
 
 # Refresh Subscription Details
 if you want to refresh sdk subscription details. 
@@ -106,4 +105,8 @@ Get Translations Of Dictionary
         //Do your stuff at here....
         }
 
+Get Translations of Api response Json
 
+        DevnagriSDK.shared.getTranslationOfDictionary(dict: , igonreKeys: [""]) { translatedNSDictionary in
+         //Do your stuff at here   
+        }
