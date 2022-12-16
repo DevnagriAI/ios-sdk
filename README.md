@@ -49,7 +49,7 @@ For auto update strings translations you can set time in minutes.
 
      func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
             DevnagriSDK.shared.initSdk(apiKey: String, updateStringTime:Int?) { isInitialized, message in
-            
+                            //Reload or update UI here...
             }
      }
      
@@ -58,9 +58,10 @@ For auto update strings translations you can set time in minutes.
    
 # Change Language
 In case you don't want to use the system language, you can set a different language in the updateAppLocale method. The language code (locale) needs to be present in a release from Devnagri.
-
+        //You can start loader here...
             DevnagriSDK.shared.updateAppLocale(code: "hi") { isUpdated, message in
-                //do here...
+                //You can stop loader here...
+                //Reload or update UI here...
             }
       
   Please note that you will see the english text back if your device language is english and you have not set any specific language for the SDK. To get the translation in Hindi, Please update app locale to Hindi as per above method.
@@ -70,10 +71,6 @@ In case you want to know which language code currently used by application.
 
      let currentLanguageCode = DevnagriSDK.shared.getCurrentApplicationLanguageCode()
 
-# Refresh Subscription Details
-if you want to refresh sdk subscription details. 
-
-    DevnagriSDK.shared.refreshSubscriptionDetail()
     
 # Get Supported Languages
 You can get supported languages for the SDK using this method. This will return hashmap of language name and language code

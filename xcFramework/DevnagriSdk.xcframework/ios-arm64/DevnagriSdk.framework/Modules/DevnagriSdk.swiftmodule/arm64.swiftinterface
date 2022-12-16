@@ -21,6 +21,7 @@ extension ObjectiveC.NSObject {
   }
   final public var isSdkSubscribed: Swift.Bool
   final public func initSdk(apiKey: Swift.String, updateStringsTime inMinutes: Swift.Int? = nil, completionHandler: @escaping DevnagriSdk.DevnagriSDK.InitBlock)
+  final public func updateTranslations(completionHandler: @escaping DevnagriSdk.DevnagriSDK.TranslatedLanguageBlock)
   final public func refreshSubscriptionDetail()
   @objc deinit
   @objc override dynamic public init()
