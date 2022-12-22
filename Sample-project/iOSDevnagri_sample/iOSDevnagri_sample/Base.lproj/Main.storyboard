@@ -29,27 +29,19 @@
                                 <rect key="frame" x="0.0" y="812" width="414" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtO-1p-sqo">
-                                        <rect key="frame" x="0.0" y="0.0" width="124.5" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="197" height="50"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Run SDK Methods"/>
+                                        <state key="normal" title="Test Translations"/>
                                         <connections>
                                             <action selector="btnSDKMethods:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Khu-OQ-gFw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mlf-bg-A2N">
-                                        <rect key="frame" x="144.5" y="0.0" width="125" height="50"/>
+                                        <rect key="frame" x="217" y="0.0" width="197" height="50"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Switch Language"/>
                                         <connections>
                                             <action selector="btnChangeLanguageClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XlO-Hg-gde"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDE-O7-xBD">
-                                        <rect key="frame" x="289.5" y="0.0" width="124.5" height="50"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Reload"/>
-                                        <connections>
-                                            <action selector="btnReloadClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aja-4z-Rsh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -119,6 +111,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nPW-kb-LQz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1736" y="82"/>
+        </scene>
+        <!--Translation Of StringVC-->
+        <scene sceneID="5yC-oo-3DC">
+            <objects>
+                <viewController storyboardIdentifier="TranslationOfStringVC" id="EiI-hy-PnZ" customClass="TranslationOfStringVC" customModule="iOSDevnagri_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DCP-2x-5mF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1i-eh-uC7">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="L0W-fo-CcA">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="L0W-fo-CcA" firstAttribute="top" secondItem="S1i-eh-uC7" secondAttribute="top" id="7tv-Z6-Ru8"/>
+                                    <constraint firstAttribute="bottom" secondItem="L0W-fo-CcA" secondAttribute="bottom" id="JCX-6b-1ow"/>
+                                    <constraint firstItem="L0W-fo-CcA" firstAttribute="leading" secondItem="S1i-eh-uC7" secondAttribute="leading" id="Ur0-Ll-DXI"/>
+                                    <constraint firstAttribute="trailing" secondItem="L0W-fo-CcA" secondAttribute="trailing" id="qrX-mf-VJE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xvy-oN-DOm"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="S1i-eh-uC7" firstAttribute="top" secondItem="xvy-oN-DOm" secondAttribute="top" id="RVL-43-3KQ"/>
+                            <constraint firstItem="xvy-oN-DOm" firstAttribute="bottom" secondItem="S1i-eh-uC7" secondAttribute="bottom" id="o6D-lc-2Mp"/>
+                            <constraint firstItem="S1i-eh-uC7" firstAttribute="leading" secondItem="xvy-oN-DOm" secondAttribute="leading" id="p2G-Qd-X33"/>
+                            <constraint firstItem="xvy-oN-DOm" firstAttribute="trailing" secondItem="S1i-eh-uC7" secondAttribute="trailing" id="sYG-rl-d6j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtViewTranslated" destination="L0W-fo-CcA" id="6Ug-2L-wrt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0oO-9S-w4v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2513" y="82"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="a3d-zl-vRK">

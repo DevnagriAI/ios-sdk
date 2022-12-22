@@ -26,51 +26,51 @@
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/5mhKm5kZQHx+XIpeR85jMWKEuw=
+		KSSC5ZK+DQfpX2eb8gueAEhw6Bo=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+rp3T1P3s+d3e8go8ytWSaxBVcA=
+		uGUaw4E6mqAFV4zS46QH9mipyck=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Am5af1pVbj+/ySX+P1GekoSHlfw=
+		CS+Wl3p76DwTzF+bY6BEHK6YkiM=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		/5mhKm5kZQHx+XIpeR85jMWKEuw=
+		KSSC5ZK+DQfpX2eb8gueAEhw6Bo=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		+rp3T1P3s+d3e8go8ytWSaxBVcA=
+		uGUaw4E6mqAFV4zS46QH9mipyck=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Am5af1pVbj+/ySX+P1GekoSHlfw=
+		CS+Wl3p76DwTzF+bY6BEHK6YkiM=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VQ+vxBj0wiUMnU2Ep2m5loqWNX0=
+		7dXvVHMngVVlxCNp256mnPhLlHk=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		J04U/ps8LmsoSoL0mqfuQtBREoc=
+		0bflVXlEPOHaWiw6YcC16KklUVg=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iPbnp9kuoJqbzv4rTZvS+mTLNhE=
+		E/282Mhb6cPlMpip/x1R/ZqO2/8=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		VQ+vxBj0wiUMnU2Ep2m5loqWNX0=
+		7dXvVHMngVVlxCNp256mnPhLlHk=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		J04U/ps8LmsoSoL0mqfuQtBREoc=
+		0bflVXlEPOHaWiw6YcC16KklUVg=
 		</data>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		iPbnp9kuoJqbzv4rTZvS+mTLNhE=
+		E/282Mhb6cPlMpip/x1R/ZqO2/8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,84 +115,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GhH7j3hPlJyYcYxfqWkZ8SKR/vbBqvCnhnd8SRBaxPM=
+			vIwIZGNNrWivrrQmKaqXuI+Ee/eZAcc0a8180AuJGUo=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CFahPg0nNfmF8yepaSa9dRSe+X7st1y6JeWM9SfeA/w=
+			gXW5S1KEkUGoB64UCxfHg6xpKJ1roedo7nWyaXQHxio=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZWaK5T3EsAOcbG9NpuChIdKV2ay4E6yUTY28pmhQttE=
+			FfvqhYCOb2PTaDYIs6MMPI+Ug57ksbfxRc5qZPyMQlk=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GhH7j3hPlJyYcYxfqWkZ8SKR/vbBqvCnhnd8SRBaxPM=
+			vIwIZGNNrWivrrQmKaqXuI+Ee/eZAcc0a8180AuJGUo=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CFahPg0nNfmF8yepaSa9dRSe+X7st1y6JeWM9SfeA/w=
+			gXW5S1KEkUGoB64UCxfHg6xpKJ1roedo7nWyaXQHxio=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZWaK5T3EsAOcbG9NpuChIdKV2ay4E6yUTY28pmhQttE=
+			FfvqhYCOb2PTaDYIs6MMPI+Ug57ksbfxRc5qZPyMQlk=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8qdoNVz4GRbE5CYP1YK8be/yE37bQg7A1v3YKtE2N3I=
+			BAEEEE0z399oMCmQrpDNDqV+16u4nPbmUHecNSHyiY8=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mzlmGTB2YvfTzCbvy5mGcwEwS/HJ2CRuF/Bbxj8U7B4=
+			V6szvAlHWAPG4PLEocgSiNON3jXZThKls6gCW1icadk=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l9hrjbhw3sX4qrtWsX+Xtbwg4Pg/ZmC0+Pj0ZxpV5tY=
+			Ww44yb+XtIeqV3N+y7l2Orf9WfbheFKpwdxbmhTAbMA=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8qdoNVz4GRbE5CYP1YK8be/yE37bQg7A1v3YKtE2N3I=
+			BAEEEE0z399oMCmQrpDNDqV+16u4nPbmUHecNSHyiY8=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mzlmGTB2YvfTzCbvy5mGcwEwS/HJ2CRuF/Bbxj8U7B4=
+			V6szvAlHWAPG4PLEocgSiNON3jXZThKls6gCW1icadk=
 			</data>
 		</dict>
 		<key>Modules/DevnagriSdk.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l9hrjbhw3sX4qrtWsX+Xtbwg4Pg/ZmC0+Pj0ZxpV5tY=
+			Ww44yb+XtIeqV3N+y7l2Orf9WfbheFKpwdxbmhTAbMA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

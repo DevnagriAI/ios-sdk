@@ -31,7 +31,7 @@ extension DevnagriSdk.DevnagriSDK {
   final public func getTranslationOfString(sentence: Swift.String, callback: @escaping ((Swift.String) -> Swift.Void))
   final public func getTranslationOfStrings(sentences: [Swift.String], callback: @escaping (([Swift.String]) -> Swift.Void))
   final public func getTranslationsOfDictionary(dictionary: [Swift.String : Swift.String], callback: @escaping (([Swift.String : Swift.String]) -> Swift.Void))
-  final public func getTranslationOfDictionary(dict: Foundation.NSDictionary, igonreKeys arrKeysToIgnore: [Swift.String], callback: @escaping (Foundation.NSDictionary) -> Swift.Void)
+  final public func getTranslationOfDictionary(dict: Foundation.NSDictionary, igonreKeys arrKeysToIgnore: [Swift.String], callback: @escaping (Any) -> Swift.Void)
   final public func getAllSupportableLanguages(callBack: (([DevnagriSdk.DevnagriSupportingLanguageItem]) -> Swift.Void))
   final public func getCurrentApplicationLanguageCode() -> Swift.String
   final public func getSentanceTransltion(withKey: Swift.String) -> Swift.String

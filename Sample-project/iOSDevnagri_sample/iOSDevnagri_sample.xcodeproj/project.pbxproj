@@ -15,8 +15,8 @@
 		AC3BAE782935E10E0009B9B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3BAE772935E10E0009B9B6 /* Assets.xcassets */; };
 		AC3BAE7B2935E10E0009B9B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3BAE792935E10E0009B9B6 /* LaunchScreen.storyboard */; };
 		AC3BAE93293607330009B9B6 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = AC3BAE92293607330009B9B6 /* response.json */; };
-		AC4D686C294CBDCC00ACF5F8 /* DevnagriSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4D686A294CBDC300ACF5F8 /* DevnagriSdk.xcframework */; };
-		AC4D686D294CBDCC00ACF5F8 /* DevnagriSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC4D686A294CBDC300ACF5F8 /* DevnagriSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC505240295493930054171B /* DevnagriSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC50523F295493930054171B /* DevnagriSdk.xcframework */; };
+		ACE03DAD2954741700A94212 /* TranslationOfStringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE03DAC2954741700A94212 /* TranslationOfStringVC.swift */; };
 		ACEFCCB529408027006D6C60 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACEFCCB729408027006D6C60 /* Localizable.strings */; };
 		ACFC234C294C573B0078354E /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC234B294C573B0078354E /* DataSource.swift */; };
 		ACFC234F294C5A280078354E /* TableListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC234D294C5A280078354E /* TableListCell.swift */; };
@@ -30,7 +30,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AC4D686D294CBDCC00ACF5F8 /* DevnagriSdk.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,7 +47,8 @@
 		AC3BAE7A2935E10E0009B9B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3BAE7C2935E10E0009B9B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3BAE92293607330009B9B6 /* response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
-		AC4D686A294CBDC300ACF5F8 /* DevnagriSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DevnagriSdk.xcframework; sourceTree = "<group>"; };
+		AC50523F295493930054171B /* DevnagriSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DevnagriSdk.xcframework; sourceTree = "<group>"; };
+		ACE03DAC2954741700A94212 /* TranslationOfStringVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationOfStringVC.swift; sourceTree = "<group>"; };
 		ACEFCCB629408027006D6C60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ACFC234B294C573B0078354E /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		ACFC234D294C5A280078354E /* TableListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableListCell.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC4D686C294CBDCC00ACF5F8 /* DevnagriSdk.xcframework in Frameworks */,
+				AC505240295493930054171B /* DevnagriSdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 		AC3BAE6D2935E10D0009B9B6 /* iOSDevnagri_sample */ = {
 			isa = PBXGroup;
 			children = (
-				AC4D686A294CBDC300ACF5F8 /* DevnagriSdk.xcframework */,
+				AC50523F295493930054171B /* DevnagriSdk.xcframework */,
 				AC3BAE6E2935E10D0009B9B6 /* AppDelegate.swift */,
 				AC3BAE702935E10D0009B9B6 /* SceneDelegate.swift */,
 				AC3BAE722935E10D0009B9B6 /* ViewController.swift */,
@@ -100,6 +100,7 @@
 				AC3BAE792935E10E0009B9B6 /* LaunchScreen.storyboard */,
 				AC3BAE7C2935E10E0009B9B6 /* Info.plist */,
 				AC3BAE772935E10E0009B9B6 /* Assets.xcassets */,
+				ACE03DAC2954741700A94212 /* TranslationOfStringVC.swift */,
 			);
 			path = iOSDevnagri_sample;
 			sourceTree = "<group>";
@@ -201,6 +202,7 @@
 				AC3BAE6F2935E10D0009B9B6 /* AppDelegate.swift in Sources */,
 				ACFC234C294C573B0078354E /* DataSource.swift in Sources */,
 				AC3BAE712935E10D0009B9B6 /* SceneDelegate.swift in Sources */,
+				ACE03DAD2954741700A94212 /* TranslationOfStringVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

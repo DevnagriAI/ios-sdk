@@ -1,72 +1,73 @@
 {
-    "page_title":"Top 10 Tourist Places in India 2022",
     
-    "tourist_places_list": [
+        "page_title":"Top 10 Tourist Places in India 2022",
         
-        {
-            "title":"Taj Mahal",
-            "localtion":"It is situated on the banks of River Yamuna in Agra, Uttar Pradesh.",
-            "description":"The Taj Mahal in Agra is an immense mausoleum of white marble, built between 1632 and 1653 by order of the Mughal emperor Shah Jahan in memory of his favourite wife. Called “a teardrop on the cheek of eternity” it is one of the masterpieces of Mughal architecture, and one of the great tourist attractions in India. Besides the white domed marble mausoleum, the Taj Mahal includes several other beautiful buildings, reflecting pools, and extensive ornamental gardens with flowering trees and bushes."
-        },
-        
-        {
-            "title":"Hawa Mahal",
-            "localtion":"The Hawa Mahal is a palace in the city of Jaipur, Rajasthan",
-            "description":"A stunning pick and red sandstone five-story structure stand in the heart of Jaipur. One of the city’s most popular tourist attractions, the Hawa Mahal has a unique purpose. Also known as the Palace of the Wind, it was a place where royal women could view street activities outside while hidden from view. To this end, the pyramid-shaped palace has 953 windows, each with an intricate design. Constructed in 1799, Hawa Mahal is considered an excellent example of Rajputana architecture."
-        },
-        
-        {
-            "title":"Qutb Minar",
-            "localtion":"The Qutb Minar complexes are monuments and buildings from the Delhi Sultanate at Mehrauli in Delhi, India.",
-            "description":"Qutb Minar is the second-highest brick minaret in the world. The minaret, towering 80 meters (270 feet) into the sky, is made of marble and red sandstone bricks that are carved with sayings from the Koran. Construction took four years, starting in 1193. A circular staircase with 379 steps leads to the top; it is closed to visitors. Quwwat-ul-Islam Mosqueaa, the first mosque built in India, lies at the minaret’s foot. Nearby is the Iron Pillar, so named because it’s made from metals that don’t rust."
-        },
-        
-        {
-            "title":"Jim Corbett National Park",
-            "localtion":"Ramnagar, Uttarakhand",
-            "description":"Everyone loves to see animals in the wild. Jim Corbett National Park, India’s oldest national park, is a good place to see the endangered Bengal tiger. Established in 1936, the park was renamed in 1954 to honour Jim Corbett, author and wildlife conservationist, who helped create this nature reserve. Thick vegetation, including jungles and forest, make it difficult to see the tiger – April to June is best for that, but visitors may see other wildlife, including elephants, leopards, rhinoceros and Himalayan black bears."
-        },
-        
-        {
-            "title":"Harmandir Sahib",
-            "localtion":"Amritsar, Punjab",
-            "description":"The Harmandir Sahib, better known as the Golden Temple is the main tourist attraction in Amritsar and the most important religious place to the Sikhs. Construction of the temple was begun by Guru Ramdas ji. in the 16th century. In the 19th century, Maharaja Ranjit Singh the upper floors of the temple were covered with gold. It’s a stunning temple, and always full of thousands of pilgrims from all over India, excited to be at a place that they usually only see on television."
-        },
-        
-        {
-            "title":"Sun Temple",
-            "localtion":"Konark, Odisha",
-            "Ruler":"Narasimha Deva 1",
-            "description":"The Sun Temple is one of the major attractions of the eastern coast of India. This temple is dedicated to the Sun King or Lord Surya Dev and was built in the 13th century. This temple is also listed in the UNESCO World Heritage sites due to its architecture and Inscriptions. A major attraction of the Sun Temple of Konark is when the first ray of the sun strikes the main entrance, one can visualize the shadows of giraffes, snakes, elephants, and mythological creatures etc on the walls."
-        },
-        
-        {
-            "title":"Ellora Caves",
-            "localtion":"Aurangabad, Maharashtra",
-            "Ruler":"Krishna 1",
-            "description":"This is a famous UNESCO World Heritage Site from Maharashtra. The rock-cut activity was carried out in three phases from the 6th century to the 12th century. These 34 monasteries and temples extend in more than 2 km range in the area. The sculpture depicting Ravana attempting to lift Mount Kailasa, the abode of Siva, is especially noteworthy."
-        },
-        
-        {
-            "title":"Ajanta Caves",
-            "localtion":"Aurangabad, Maharashtra",
-            "Ruler":"Guptas",
-            "description":"The very first Buddhist cave monuments at Ajanta were built during the 2nd and 1st centuries B.C. During the Gupta period that lasted from the 5th to 6th centuries A.D., various other caves were added to the original group. The paintings and sculptures of Ajanta, considered masterpieces of Buddhist religious art, have had a considerable artistic influence."
-        },
-        
-        {
-            "title":"Khajuraho Temples",
-            "localtion":"Khajuraho, Madhya Pradesh",
-            "Ruler":"Chandela dynasty",
-            "description":"Khajuraho has a group of temples that are divided into three parts on the basis of their locations that is Western, Eastern, and Southern group temples. It is well known for its exotic sculptures. This group of temples was built in the 11th century. Khajuraho temples are well known UNESCO World Heritage Sites due to their architectural wonder."
-        },
-        
-        {
-            "title":"Humayun’s Tomb",
-            "localtion":"New Delhi",
-            "Ruler":"Akbar",
-            "description":"Humayun’s tomb was built in 1570 AD. It is unique as it was the first garden-tomb on the Indian subcontinent. This tomb is the reason for several major architectural innovations, culminating in the construction of the Taj Mahal. Humayun’s Tomb, Delhi was the first of the grand dynastic mausoleum that became a synonym of Mughal architecture. The structure is of dressed stone clad in red sandstone with white and black inlaid marble borders"
-        }
-    ]
+        "tourist_places_list": [
+            
+            {
+                "title":"Taj Mahal",
+                "localtion":"It is situated on the banks of River Yamuna in Agra, Uttar Pradesh.",
+                "description":"The Taj Mahal in Agra is an immense mausoleum of white marble, built between 1632 and 1653 by order of the Mughal emperor Shah Jahan in memory of his favourite wife. Called “a teardrop on the cheek of eternity” it is one of the masterpieces of Mughal architecture, and one of the great tourist attractions in India. Besides the white domed marble mausoleum, the Taj Mahal includes several other beautiful buildings, reflecting pools, and extensive ornamental gardens with flowering trees and bushes."
+            },
+            
+            {
+                "title":"Hawa Mahal",
+                "localtion":"The Hawa Mahal is a palace in the city of Jaipur, Rajasthan",
+                "description":"A stunning pick and red sandstone five-story structure stand in the heart of Jaipur. One of the city’s most popular tourist attractions, the Hawa Mahal has a unique purpose. Also known as the Palace of the Wind, it was a place where royal women could view street activities outside while hidden from view. To this end, the pyramid-shaped palace has 953 windows, each with an intricate design. Constructed in 1799, Hawa Mahal is considered an excellent example of Rajputana architecture."
+            },
+            
+            {
+                "title":"Qutb Minar",
+                "localtion":"The Qutb Minar complexes are monuments and buildings from the Delhi Sultanate at Mehrauli in Delhi, India.",
+                "description":"Qutb Minar is the second-highest brick minaret in the world. The minaret, towering 80 meters (270 feet) into the sky, is made of marble and red sandstone bricks that are carved with sayings from the Koran. Construction took four years, starting in 1193. A circular staircase with 379 steps leads to the top; it is closed to visitors. Quwwat-ul-Islam Mosqueaa, the first mosque built in India, lies at the minaret’s foot. Nearby is the Iron Pillar, so named because it’s made from metals that don’t rust."
+            },
+            
+            {
+                "title":"Jim Corbett National Park",
+                "localtion":"Ramnagar, Uttarakhand",
+                "description":"Everyone loves to see animals in the wild. Jim Corbett National Park, India’s oldest national park, is a good place to see the endangered Bengal tiger. Established in 1936, the park was renamed in 1954 to honour Jim Corbett, author and wildlife conservationist, who helped create this nature reserve. Thick vegetation, including jungles and forest, make it difficult to see the tiger – April to June is best for that, but visitors may see other wildlife, including elephants, leopards, rhinoceros and Himalayan black bears."
+            },
+            
+            {
+                "title":"Harmandir Sahib",
+                "localtion":"Amritsar, Punjab",
+                "description":"The Harmandir Sahib, better known as the Golden Temple is the main tourist attraction in Amritsar and the most important religious place to the Sikhs. Construction of the temple was begun by Guru Ramdas ji. in the 16th century. In the 19th century, Maharaja Ranjit Singh the upper floors of the temple were covered with gold. It’s a stunning temple, and always full of thousands of pilgrims from all over India, excited to be at a place that they usually only see on television."
+            },
+            
+            {
+                "title":"Sun Temple",
+                "localtion":"Konark, Odisha",
+                "Ruler":"Narasimha Deva 1",
+                "description":"The Sun Temple is one of the major attractions of the eastern coast of India. This temple is dedicated to the Sun King or Lord Surya Dev and was built in the 13th century. This temple is also listed in the UNESCO World Heritage sites due to its architecture and Inscriptions. A major attraction of the Sun Temple of Konark is when the first ray of the sun strikes the main entrance, one can visualize the shadows of giraffes, snakes, elephants, and mythological creatures etc on the walls."
+            },
+            
+            {
+                "title":"Ellora Caves",
+                "localtion":"Aurangabad, Maharashtra",
+                "Ruler":"Krishna 1",
+                "description":"This is a famous UNESCO World Heritage Site from Maharashtra. The rock-cut activity was carried out in three phases from the 6th century to the 12th century. These 34 monasteries and temples extend in more than 2 km range in the area. The sculpture depicting Ravana attempting to lift Mount Kailasa, the abode of Siva, is especially noteworthy."
+            },
+            
+            {
+                "title":"Ajanta Caves",
+                "localtion":"Aurangabad, Maharashtra",
+                "Ruler":"Guptas",
+                "description":"The very first Buddhist cave monuments at Ajanta were built during the 2nd and 1st centuries B.C. During the Gupta period that lasted from the 5th to 6th centuries A.D., various other caves were added to the original group. The paintings and sculptures of Ajanta, considered masterpieces of Buddhist religious art, have had a considerable artistic influence."
+            },
+            
+            {
+                "title":"Khajuraho Temples",
+                "localtion":"Khajuraho, Madhya Pradesh",
+                "Ruler":"Chandela dynasty",
+                "description":"Khajuraho has a group of temples that are divided into three parts on the basis of their locations that is Western, Eastern, and Southern group temples. It is well known for its exotic sculptures. This group of temples was built in the 11th century. Khajuraho temples are well known UNESCO World Heritage Sites due to their architectural wonder."
+            },
+            
+            {
+                "title":"Humayun’s Tomb",
+                "localtion":"New Delhi",
+                "Ruler":"Akbar",
+                "description":"Humayun’s tomb was built in 1570 AD. It is unique as it was the first garden-tomb on the Indian subcontinent. This tomb is the reason for several major architectural innovations, culminating in the construction of the Taj Mahal. Humayun’s Tomb, Delhi was the first of the grand dynastic mausoleum that became a synonym of Mughal architecture. The structure is of dressed stone clad in red sandstone with white and black inlaid marble borders"
+            }
+        ]
     
 }

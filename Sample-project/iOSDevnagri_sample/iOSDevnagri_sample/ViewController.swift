@@ -16,9 +16,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.tblList.register(UINib(nibName: "TableListCell", bundle: nil), forCellReuseIdentifier: "TableListCell")
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -28,51 +26,66 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnSDKMethods(_ sender: UIButton) {
-//        self.testString()
-//        self.testWithArrayString()
-//        self.testWithDictionary()
-        self.testWithJson()
+        
+        let alertController = UIAlertController(title: "Translation", message: "", preferredStyle: .actionSheet)
+        
+        let actionString = UIAlertAction(title: "To String", style: .default) { action in
+            self.testString()
+        }
+        let actionStrings = UIAlertAction(title: "To Strings", style: .default) { action in
+            self.testWithArrayString()
+        }
+        let actionDictionary = UIAlertAction(title: "To Dictionary", style: .default) { action in
+            self.testWithDictionary()
+        }
+        let actionJson = UIAlertAction(title: "To Json", style: .default) { action in
+            self.testWithJson()
+        }
+        
+        let actionCancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        alertController.addAction(actionString)
+        alertController.addAction(actionStrings)
+        alertController.addAction(actionDictionary)
+        alertController.addAction(actionJson)
+        alertController.addAction(actionCancel)
+        
+        
+        self.present(alertController, animated: true, completion: nil)
     }
-    
-    @IBAction func btnReloadClicked(_ sender: UIButton) {
-//        self.reloadInputViews()
-//        self.view.setNeedsLayout()
-//        parent?.addSubview(view!)
-//        self.setNeedsLayout()
-        let window = UIApplication.shared.keyWindow
-    }
-    
+     
     private func testString(){
         DevnagriSDK.shared.getTranslationOfString(sentence: self.dataSource.strStringToTranslate) { translatedString in
-            print("TranslatedString",translatedString)
+            print("translationString",translatedString)
+            self.showingTranslatedText(text: translatedString)
         }
     }
     
     private func testWithArrayString(){
         DevnagriSDK.shared.getTranslationOfStrings(sentences: self.dataSource.arrStringToTranslate) { translationStrings in
             print("translationStrings",translationStrings)
+            self.showingTranslatedText(text: "\(translationStrings.joined(separator: "\n"))")
         }
     }
     
     private func testWithDictionary(){
-        DevnagriSDK.shared.getTranslationsOfDictionary(dictionary: self.dataSource.dictionaryToTranslate) { translatedDictionary in
+        DevnagriSDK.shared.getTranslationsOfDictionary(dictionary:self.dataSource.dictionaryToTranslate ) { translatedDictionary in
             print("translatedDictionary",translatedDictionary)
+            var strings = ""
+            for dict in translatedDictionary{
+                strings.append("\(dict.key) : \(dict.value)\n")
+            }
+            self.showingTranslatedText(text: "\(strings)")
         }
     }
     
     private func testWithJson(){
         
         if let dummyJson:NSDictionary = self.dataSource.getJson(fileName: "response") {
-            
-            
             DevnagriSDK.shared.getTranslationOfDictionary(dict: dummyJson, igonreKeys: []) { translatedJson in
                 print("translatedDictionary",translatedJson)
-                
-                
-                
+                self.showingTranslatedText(text: translatedJson as? String ?? "")
             }
         }
-        
     }
     
     @IBAction func btnChangeLanguageClicked(_ sender: UIButton) {
@@ -80,6 +93,15 @@ class ViewController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "SupportingLanguageVC") as! SupportingLanguageVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    private func showingTranslatedText(text:String){
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "TranslationOfStringVC") as! TranslationOfStringVC
+        vc.translatedString = text
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
 }
 
 extension ViewController:UITableViewDelegate, UITableViewDataSource {
