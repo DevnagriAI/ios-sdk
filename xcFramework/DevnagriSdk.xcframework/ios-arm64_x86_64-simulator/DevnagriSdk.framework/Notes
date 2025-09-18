@@ -14,3 +14,30 @@ xcodebuild archive -scheme DevnagriSdk -destination="iOS Simulator" -archivePath
 
 
 xcodebuild -create-xcframework -framework /tmp/xcf/ios.xcarchive/Products/Library/Frameworks/DevnagriSdk.framework -framework /tmp/xcf/iossimulator.xcarchive/Products/Library/Frameworks/DevnagriSdk.framework -output DevnagriSdk.xcframework
+
+//Here is Script to make xcframework
+# iOS Device
+xcodebuild archive \
+  -project "/Users/vijayjangid/Documents/Projects/iOS/sb-devnagri/devnagri-ios-sdk/DevnagriSdk/DevnagriSdk.xcodeproj" \
+  -scheme DevnagriSdk \
+  -destination "generic/platform=iOS" \
+  -archivePath ./build/ios_devices.xcarchive \
+  SKIP_INSTALL=NO \
+  BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+
+# iOS Simulator
+xcodebuild archive \
+  -project "/Users/vijayjangid/Documents/Projects/iOS/sb-devnagri/devnagri-ios-sdk/DevnagriSdk/DevnagriSdk.xcodeproj" \
+  -scheme DevnagriSdk \
+  -destination "generic/platform=iOS Simulator" \
+  -archivePath ./build/ios_simulator.xcarchive \
+  SKIP_INSTALL=NO \
+  BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+
+
+Then package them:
+
+xcodebuild -create-xcframework \
+  -framework ./build/ios_devices.xcarchive/Products/Library/Frameworks/DevnagriSdk.framework \
+  -framework ./build/ios_simulator.xcarchive/Products/Library/Frameworks/DevnagriSdk.framework \
+  -output ./DevnagriSdk.xcframework

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="160" id="KGk-i7-Jjw" customClass="CellReview" customModule="iOSLacalizationSample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="447" height="160"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rUb-py-Bf5">
+                        <rect key="frame" x="0.0" y="12.000000000000004" width="447" height="63.333333333333343"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VLv-yV-hR6">
+                                <rect key="frame" x="0.0" y="0.66666666666666785" width="40" height="38.666666666666657"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VLv-yV-hR6" secondAttribute="height" multiplier="1:1" id="bz5-dS-qlG"/>
+                                    <constraint firstAttribute="width" constant="40" id="k1S-ZV-Nl5"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uGX-LG-YJf" userLabel="viewProfile">
+                                <rect key="frame" x="52" y="0.0" width="383" height="51.333333333333336"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vijay Jangid" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-HB-vpR">
+                                        <rect key="frame" x="0.0" y="0.0" width="383" height="19.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vijay Jangid" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LL3-Rc-RiX">
+                                        <rect key="frame" x="0.0" y="31.666666666666664" width="383" height="19.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="AUK-HB-vpR" firstAttribute="leading" secondItem="uGX-LG-YJf" secondAttribute="leading" id="3AY-44-Y4c"/>
+                                    <constraint firstItem="AUK-HB-vpR" firstAttribute="top" secondItem="uGX-LG-YJf" secondAttribute="top" id="6oa-CC-m4I"/>
+                                    <constraint firstItem="LL3-Rc-RiX" firstAttribute="top" secondItem="AUK-HB-vpR" secondAttribute="bottom" constant="12" id="8qM-Gl-f8r"/>
+                                    <constraint firstAttribute="bottom" secondItem="LL3-Rc-RiX" secondAttribute="bottom" id="WfI-ix-DKQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="LL3-Rc-RiX" secondAttribute="trailing" id="bta-W8-pKN"/>
+                                    <constraint firstItem="LL3-Rc-RiX" firstAttribute="leading" secondItem="uGX-LG-YJf" secondAttribute="leading" id="qXp-A3-rsK"/>
+                                    <constraint firstAttribute="trailing" secondItem="AUK-HB-vpR" secondAttribute="trailing" id="t6y-CH-ObN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="uGX-LG-YJf" secondAttribute="bottom" constant="12" id="6Tg-O8-5sX"/>
+                            <constraint firstItem="VLv-yV-hR6" firstAttribute="top" secondItem="rUb-py-Bf5" secondAttribute="top" id="DFr-jP-t8R"/>
+                            <constraint firstAttribute="trailing" secondItem="uGX-LG-YJf" secondAttribute="trailing" constant="12" id="H7H-J2-ViW"/>
+                            <constraint firstItem="VLv-yV-hR6" firstAttribute="leading" secondItem="rUb-py-Bf5" secondAttribute="leading" id="gcV-wY-KrH"/>
+                            <constraint firstItem="uGX-LG-YJf" firstAttribute="top" secondItem="rUb-py-Bf5" secondAttribute="top" id="l2d-dw-v4H"/>
+                            <constraint firstItem="uGX-LG-YJf" firstAttribute="leading" secondItem="VLv-yV-hR6" secondAttribute="trailing" constant="12" id="xeb-R4-5F4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="rUb-py-Bf5" secondAttribute="trailing" id="3do-Ng-t4r"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="rUb-py-Bf5" secondAttribute="bottom" id="eYV-q8-31B"/>
+                    <constraint firstItem="rUb-py-Bf5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="nKo-Qk-9l2"/>
+                    <constraint firstItem="rUb-py-Bf5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="ske-C7-y47"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblReview" destination="LL3-Rc-RiX" id="KeF-Fx-zJv"/>
+                <outlet property="lblUserName" destination="AUK-HB-vpR" id="VgZ-SG-mfN"/>
+            </connections>
+            <point key="canvasLocation" x="43.511450381679388" y="29.577464788732396"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
+    </resources>
+</document>

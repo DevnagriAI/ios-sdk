@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Lets explore the world"; ObjectID = "078-Cr-Ckh"; */
+"078-Cr-Ckh.text" = "Lets explore the world";
+
+/* Class = "UILabel"; text = "let's explore the world with us with just a few clicks"; ObjectID = "5d3-cu-K8D"; */
+"5d3-cu-K8D.text" = "let's explore the world with us with just a few clicks";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "5hh-n7-gfD"; */
+"5hh-n7-gfD.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Hello Vijay"; ObjectID = "AfS-HE-rX2"; */
+"AfS-HE-rX2.text" = "Hello Vijay";
+
+/* Class = "UILabel"; text = "Kuta Beach"; ObjectID = "B4P-mO-Tmt"; */
+"B4P-mO-Tmt.text" = "Kuta Beach";
+
+/* Class = "UITextField"; placeholder = "Search destination"; ObjectID = "BrI-Ny-YbJ"; */
+"BrI-Ny-YbJ.placeholder" = "Search destination";
+
+/* Class = "UILabel"; text = "Where do you want to explore today?"; ObjectID = "LS9-9f-vNR"; */
+"LS9-9f-vNR.text" = "Where do you want to explore today?";
+
+/* Class = "UIButton"; normalTitle = "See Reviews"; ObjectID = "OCX-31-dOr"; */
+"OCX-31-dOr.normalTitle" = "See Reviews";
+
+/* Class = "UILabel"; text = "Kuta Beach"; ObjectID = "PfX-Ak-Y0T"; */
+"PfX-Ak-Y0T.text" = "Kuta Beach";
+
+/* Class = "UILabel"; text = "Favorite Place"; ObjectID = "U11-OD-o3D"; */
+"U11-OD-o3D.text" = "Favorite Place";
+
+/* Class = "UILabel"; text = "4.8"; ObjectID = "W24-ej-Xww"; */
+"W24-ej-Xww.text" = "4.8";
+
+/* Class = "UIButton"; normalTitle = "Booking"; ObjectID = "aWE-bf-LrH"; */
+"aWE-bf-LrH.normalTitle" = "Booking";
+
+/* Class = "UILabel"; text = "$245,00"; ObjectID = "jzR-QY-EAf"; */
+"jzR-QY-EAf.text" = "$245,00";
+
+/* Class = "UILabel"; text = "Choose Category"; ObjectID = "kVr-nt-xk7"; */
+"kVr-nt-xk7.text" = "Choose Category";
+
+/* Class = "UILabel"; text = "Kuta Beach"; ObjectID = "khf-Ux-ZRc"; */
+"khf-Ux-ZRc.text" = "Kuta Beach";
+
+/* Class = "UILabel"; text = "/Person"; ObjectID = "mqY-xm-8Ab"; */
+"mqY-xm-8Ab.text" = "/Person";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "yox-Q4-Pgw"; */
+"yox-Q4-Pgw.text" = "Welcome";

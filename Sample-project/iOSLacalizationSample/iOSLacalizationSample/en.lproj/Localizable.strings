@@ -1,0 +1,582 @@
+/*
+ English.strings
+ iOSLacalizationSample
+ 
+ Created by Vijay Jangid on 22/08/25.
+ 
+ */
+
+//Splash
+"welcome" = "Welcome";
+
+//Onboarding
+"onboardingTitle1" = "Lets explore the world";
+"onboardingSubtitle1" = "let's explore the world with us with just a few clicks";
+"onboardingTitle2" = "Visit tourist attractins";
+"onboardingSubtitle2" = "Find thousands of tourist destinations ready for you to visit";
+"onboardingTitle3" = "Get ready for next trip";
+"onboardingSubtitle3" = "Discover, explore, and experience more than ever before";
+"letExplore" = "Let's Explore";
+//Home
+"homeTitle" = "Where do you want to explore today?";
+"homeUserName" = "Hello";
+"searchDestination"="Search destination";
+"chooseCategory" = "Choose Category";
+"favoritePlace" = "Favorite Place";
+"Beach" = "Beach";
+"Mountain" = "Mountain";
+"Forest" = "Forest";
+"Desert" = "Desert";
+"Island" = "Island";
+"City Escape" = "City Escape";
+"Historical" = "Historical";
+"Adventure" = "Adventure";
+"Wildlife" = "Wildlife";
+"Waterfall" = "Waterfall";
+"Lake" = "Lake";
+"Cultural" = "Cultural";
+"Spiritual" = "Spiritual";
+"Trekking" = "Trekking";
+"Countryside" = "Countryside";
+
+"kutaBeach" = "Kuta Beach";
+"baliIndonesia" = "Bali, Indonesia";
+"kutaBeachDescription" = "Kuta Beach is one of Bali’s most popular tourist spots, famous for its golden sand and vibrant atmosphere.
+It is ideal for surfing, swimming, or simply enjoying the sunset. Along the shoreline, you’ll find beach bars,
+restaurants, and shops catering to travelers from around the world. Whether you’re seeking adventure or relaxation,
+Kuta Beach offers the perfect tropical escape.";
+
+
+"bromoMountain" = "Bromo Mountain";
+"javaIndonesia" = "Java, Indonesia";
+
+"bromoMountainDescription" = "Mount Bromo is an active volcano located in East Java and is part of the stunning Bromo Tengger Semeru National Park.
+The highlight is witnessing sunrise from Mount Penanjakan, where the sky glows above a sea of clouds. Jeep tours
+take visitors up close to the crater, and the surrounding villages provide a glimpse into Tenggerese culture.";
+
+
+"PykaraLake" = "Pykara Lake";
+"ootyTamilNaduIndia" = "Ooty, Tamil Nadu, India";
+
+"PykaraLakeDescription" = "Pykara Lake is a beautiful and peaceful destination located about 20 km from Ooty. Surrounded by lush forests
+and rolling hills, it is a favorite for boating and picnics. The nearby Pykara waterfalls add to the charm,
+making it a perfect family getaway or romantic escape.";
+
+
+//
+"Santorini" = "Santorini";
+"Greece" = "Greece";
+
+"SantoriniDescription" = "Santorini is world-famous for its whitewashed houses with blue domes, perched on dramatic cliffs overlooking the Aegean Sea. 
+     Known for breathtaking sunsets, romantic streets, and stunning beaches, it is one of the most iconic destinations in Europe. 
+        Perfect for honeymooners and travelers seeking beauty and tranquility";
+
+//Eiffel Tower
+
+"EiffelTower" = "Eiffel Tower";
+"ParisFrance" = "Paris, France";
+"EiffelTowerDescription" = "The Eiffel Tower is one of the world’s most recognizable landmarks and a symbol of Paris.
+Visitors can enjoy panoramic views of the city from its observation decks, dine at its restaurants,
+and admire the sparkling lights that illuminate it every evening. A must-visit for every traveler to France.";
+
+//Maldives
+"Maldives" = "Maldives";
+"IndianOcean" = "Indian Ocean";
+"MaldivesDescription" = "The Maldives is a tropical paradise with crystal-clear waters, luxury resorts, and vibrant coral reefs. 
+        It is famous for overwater villas, snorkeling, scuba diving, and honeymoon experiences. 
+        With its pristine beauty and unmatched tranquility, it remains one of the most luxurious destinations in the world.";
+
+
+"user1" = "AliceWanderer";
+"user2" = "SurfKing21";
+"user3" = "TravelBug";
+
+"user4" = "NatureLover";
+"user5" = "Explorer88";
+"user6" = "PhotoJunkie";
+
+"user7" = "FamilyTrip99";
+"user8" = "PeaceSeeker";
+"user9" = "HikerLife";
+
+"user10" = "RomanticSoul";
+"user11" = "WineTaster";
+"user12" = "TravelerX";
+
+"user13" = "ParisDreamer";
+"user14" = "FoodieParis";
+"user15" = "GlobeTrotter";
+
+"user16" = "OceanLover";
+"user17" = "Honeymooners2025";
+"user18" = "LuxuryTraveler";
+
+"review1" = "The sunset here was magical! Definitely worth the trip.";
+"review2" = "Great waves for beginners and pros. Rented a surfboard easily.";
+"review3" = "A bit crowded, but the energy of the place is unmatched.";
+
+"review4" = "The sunrise view was breathtaking, once-in-a-lifetime experience.";
+"review5" = "The jeep ride was adventurous! Wear warm clothes though.";
+"review6" = "Perfect place for photography lovers, the landscape is surreal.";
+
+"review7" = "Had a lovely picnic by the lake, kids loved the boat ride.";
+"review8" = "Very calm and scenic, away from the city noise.";
+"review9" = "The nearby waterfalls are a must-visit, amazing experience!";
+
+"review10" = "The sunset was unforgettable. Ideal honeymoon destination.";
+"review11" = "Wine tour was excellent, amazing local flavors.";
+"review12" = "The views of the whitewashed houses are just like postcards!";
+
+"review13" = "Seeing it light up at night gave me goosebumps.";
+"review14" = "Dinner inside the tower was pricey but worth it.";
+"review15" = "The view from the top is unmatched, long queues though.";
+
+"review16" = "Snorkeling here felt like swimming in an aquarium.";
+"review17" = "Our villa over the water was straight out of a dream.";
+"review18" = "Expensive but worth every single dollar.";
+
+"user19" = "Sophia";
+"review19" = "History comes alive here! Amazing city.";
+
+"user20" = "Alex";
+"review20" = "Best pasta and gelato I’ve ever had.";
+
+"user21" = "Mark";
+"review21" = "The adrenaline rush is unbeatable!";
+
+"user22" = "Li Wei";
+"review22" = "Loved the scenic views and adventure sports.";
+
+"user23" = "Nina";
+"review23" = "Seeing lions and elephants up close was unforgettable.";
+
+"user24" = "James";
+"review24" = "One of the best safari experiences in the world.";
+
+"user25" = "Daniel";
+"review25" = "The boat ride was thrilling, got soaked but worth it!";
+
+"user26" = "Amira";
+"review26" = "Spectacular views, both day and night.";
+
+"user27" = "Olivia";
+"review27" = "Great for both summer and winter activities.";
+
+"user28" = "Ethan";
+"review28" = "Crystal clear waters and stunning hikes.";
+
+"user29" = "Ravi";
+"review29" = "The Ganga Aarti is a once-in-a-lifetime experience.";
+
+"user30" = "Maya";
+"review30" = "Soaked in culture and tradition.";
+
+"user31" = "Liam";
+"review31" = "A peaceful place, full of culture and devotion.";
+
+"user32" = "Anjali";
+"review32" = "Loved the Pashupatinath temple visit.";
+
+"user33" = "Diego";
+"review33" = "A challenging but rewarding trek.";
+
+"user34" = "Clara";
+"review34" = "The views are absolutely breathtaking.";
+
+"user35" = "Giulia";
+"review35" = "Perfect mix of culture and relaxation.";
+
+"user36" = "Tom";
+"review36" = "The wine tours were the highlight!";
+
+
+"user37" = "Emily";
+"review37" = "Kyoto is pure magic! Every street feels like history.";
+
+"user38" = "Raj";
+"review38" = "Loved the cherry blossoms, worth visiting in April.";
+
+
+"AprilNovember" = "April – November";
+"MarchJuneSeptemberNovember" = "March – June, September – November";
+"NovemberApril" = "November – April";
+"MaySeptember" = "May – September";
+"OctoberMarch" = "October – March";
+"AprilOctober" = "April – October";
+
+"MarchMayOctoberNovember" = "March to May, October to November";
+
+"activity1" = "Surfing";
+"activity2" = "Sunbathing";
+"activity3" = "Beach parties";
+"activity4" = "Seafood dining";
+
+"activity5" = "Hiking";
+"activity6" = "Jeep Safari";
+"activity7" = "Photography";
+"activity8" = "Cultural exploration";
+
+"activity9" = "Boating";
+"activity10" = "Picnic";
+"activity11" = "Sightseeing";
+"activity12" = "Nature walks";
+
+"activity13" = "Sightseeing";
+"activity15" = "Wine tours";
+"activity16" = "Sunset watching";
+
+"activity18" = "Dining";
+"activity19" = "City tours";
+
+"activity20" = "Snorkeling";
+"activity21" = "Scuba diving";
+"activity22" = "Luxury stays";
+"activity23" = "Beach relaxation";
+
+"activity24" = "Temple Tours";
+"activity25" = "Tea Ceremonies";
+"activity26" = "Kimono Experience";
+
+"SeeReviews" = "See Reviews";
+"booking" = "Booking";
+"person" = "/Person";
+
+"changeLanguage" = "Change Language";
+
+//
+"resort1" = "Hard Rock Hotel Bali";
+"resortDescription1" = "Luxury beachfront hotel with live music and family-friendly vibes.";
+
+"resort2" = "The Anvaya Beach Resort";
+"resortDescription2" = "Upscale resort offering direct beach access and fine dining.";
+
+"resort3" = "Kuta Paradiso Hotel";
+"resortDescription3" = "Family-friendly stay close to Kuta Beach nightlife.";
+
+"resort4" = "Jiwa Jawa Bromo Resort";
+"resortDescription4" = "Scenic resort with panoramic mountain views.";
+
+"resort5" = "Lava View Lodge";
+"resortDescription5" = "Budget-friendly lodge close to Bromo crater.";
+
+"resort6" = "Cemara Indah Hotel";
+"resortDescription6" = "Simple hotel with excellent sunrise views.";
+
+"resort7" = "Gem Park Ooty";
+"resortDescription7" = "Elegant resort with hill views and modern amenities.";
+
+"resort8" = "Sterling Ooty Fern Hill";
+"resortDescription8" = "Cozy stay surrounded by lush greenery.";
+
+"resort9" = "Savoy IHCL SeleQtions";
+"resortDescription9" = "Heritage property with a colonial touch and serene vibes.";
+
+"resort10" = "Canaves Oia Suites";
+"resortDescription10" = "Luxury suites with cliffside views and infinity pools.";
+
+"resort11" = "Katikies Hotel";
+"resortDescription11" = "Iconic boutique hotel with whitewashed architecture.";
+
+"resort12" = "Grace Hotel Santorini";
+"resortDescription12" = "Romantic hotel offering sea views and fine dining.";
+
+"resort13" = "Shangri-La Hotel Paris";
+"resortDescription13" = "Luxury palace hotel with Eiffel Tower views.";
+
+"resort14" = "Pullman Paris Tour Eiffel";
+"resortDescription14" = "Modern stay just steps from the Eiffel Tower.";
+
+"resort15" = "Hotel Plaza Athénée";
+"resortDescription15" = "Famous Parisian hotel with classic French elegance.";
+
+"resort16" = "Soneva Jani";
+"resortDescription16" = "Ultra-luxury villas with private pools and overwater experiences.";
+
+"resort17" = "Baros Maldives";
+"resortDescription17" = "Romantic resort with turquoise lagoon and spa facilities.";
+
+"resort18" = "COMO Maalifushi";
+"resortDescription18" = "Luxury island retreat with world-class diving experiences.";
+
+"resort19" = "Kyoto Garden Ryokan";
+"resortDescription19" = "Traditional Japanese Ryokan with garden views.";
+
+"resort20" = "The Ritz-Carlton Kyoto";
+"resortDescription20" = "Luxury riverside stay with cultural touches.";
+
+"resort21" = "Hotel de Russie";
+"resortDescription21" = "Luxury stay with a secret garden.";
+
+"resort22" = "Palazzo Manfredi";
+"resortDescription22" = "Boutique hotel with Colosseum views.";
+
+"resort23" = "Eichardt’s Private Hotel";
+"resortDescription23" = "Luxury lakeside suites.";
+
+"resort24" = "Azur Lodge";
+"resortDescription24" = "Modern villas with mountain views.";
+
+"resort25" = "Four Seasons Safari Lodge";
+"resortDescription25" = "Luxury lodge in the heart of Serengeti.";
+
+"resort26" = "Serengeti Migration Camp";
+"resortDescription26" = "Rustic experience with wildlife views.";
+
+"resort27" = "Niagara Falls Marriott";
+"resortDescription27" = "Falls view luxury hotel.";
+
+"resort28" = "Sheraton Fallsview";
+"resortDescription28" = "Hotel overlooking the falls.";
+
+"resort29" = "Edgewood Tahoe Resort";
+"resortDescription29" = "Luxury lakeside stay.";
+
+"resort30" = "The Ritz-Carlton Lake Tahoe";
+"resortDescription30" = "Upscale mountain resort.";
+
+"resort31" = "BrijRama Palace";
+"resortDescription31" = "Luxury palace hotel on the ghat.";
+
+"resort32" = "Taj Ganges";
+"resortDescription32" = "Premium hospitality with Indian heritage.";
+
+"resort33" = "Hyatt Regency Kathmandu";
+"resortDescription33" = "Luxury resort near Boudhanath.";
+
+"resort34" = "Dwarika’s Hotel";
+"resortDescription34" = "Cultural heritage luxury stay.";
+
+"resort35" = "Belmond Sanctuary Lodge";
+"resortDescription35" = "Exclusive stay near Machu Picchu.";
+
+"resort36" = "Inkaterra Machu Picchu Pueblo Hotel";
+"resortDescription36" = "Eco-friendly luxury resort.";
+
+"resort37" = "Castello di Casole";
+"resortDescription37" = "Luxury countryside castle hotel.";
+
+"resort38" = "Rosewood Castiglion del Bosco";
+"resortDescription38" = "Elegant estate with vineyards.";
+
+
+"PopularResorts" = "Popular Resorts";
+"viewAll" = "View All";
+"CurrentLanguage" = "Current Language";
+"next" = "Next";
+
+//NotificationVC
+"notificationTitle1" = "Welcome Back!";
+"notificationMessage1" = "Thanks for logging in again today.";
+
+"notificationTitle2" = "New Offer";
+"notificationMessage2" = "Get 20% off on your next booking.";
+
+"notificationTitle3" = "Reminder";
+"notificationMessage3" = "Don’t forget your upcoming event tomorrow.";
+
+"notificationTitle4" = "Update Available";
+"notificationMessage4" = "A new version of the app is ready to install.";
+
+"notificationTitle5" = "Daily Tip";
+"notificationMessage5" = "Stay hydrated and drink at least 8 glasses of water.";
+
+"notificationTitle6" = "Reward Unlocked";
+"notificationMessage6" = "You earned 50 points for completing a task.";
+
+"notificationTitle7" = "New Message";
+"notificationMessage7" = "You have received a new message from John.";
+
+"notificationTitle8" = "Security Alert";
+"notificationMessage8" = "Your account was accessed from a new device.";
+
+"notificationTitle9" = "Survey";
+"notificationMessage9" = "Take a quick survey and win exciting rewards.";
+
+"notificationTitle10" = "Flash Sale";
+"notificationMessage10" = "Hurry! Limited time deal available for 3 hours only.";
+
+"notificationTitle11" = "Event Update";
+"notificationMessage11" = "Your event has been rescheduled to next week.";
+
+"notificationTitle12" = "Congratulations!";
+"notificationMessage12" = "You have successfully completed your profile.";
+
+"notificationTitle13" = "Weekly Summary";
+"notificationMessage13" = "Here’s a quick summary of your weekly activity.";
+
+"notificationTitle14" = "Travel Reminder";
+"notificationMessage14" = "Check in for your flight at least 2 hours before departure.";
+
+"notificationTitle15" = "Friend Joined";
+"notificationMessage15" = "Alex just joined the app, say hello!";
+
+"notificationTitle16" = "System Alert";
+"notificationMessage16" = "Scheduled maintenance will occur at midnight.";
+
+"notificationTitle17" = "Order Shipped";
+"notificationMessage17" = "Your package is on the way and will arrive soon.";
+
+"notificationTitle18" = "Feedback Request";
+"notificationMessage18" = "How was your experience with our app today?";
+
+"notificationTitle19" = "Trending Now";
+"notificationMessage19" = "Check out the most popular items this week.";
+
+"notificationTitle20" = "Daily Motivation";
+"notificationMessage20" = "Believe in yourself, you are capable of amazing things.";
+
+
+"SignIn" = "Sign In";
+"Email" = "Email";
+"EnterEmail" = "Enter email";
+"Password" = "Password";
+"ForgotPassword" = "Forgot password";
+"CreateAccount" = "Create Account";
+"SignIn" = "Sign In";
+"EnterPassword" = "Enter Password";
+"Home" = "Home";
+"Settings" = "Settings";
+
+
+/* -------- Maldives (id:6) -------- */
+"MaldivesDescription" = "A tropical paradise with white sandy beaches, luxury resorts, and crystal-clear waters perfect for diving.";
+"activity20" = "Snorkeling in Coral Reefs";
+"activity21" = "Luxury Water Villas";
+"activity22" = "Scuba Diving";
+"activity23" = "Sunset Cruise";
+
+/* -------- Kyoto (id:7) -------- */
+"Kyoto" = "Kyoto";
+"Japan" = "Japan";
+"KyotoDescription" = "A cultural treasure of Japan, home to historic temples, cherry blossoms, and traditional tea ceremonies.";
+"activity24" = "Temple Tours";
+"activity25" = "Cherry Blossom Viewing";
+"activity26" = "Tea Ceremony Experience";
+
+/* -------- Rome (id:8) -------- */
+"Rome" = "Rome";
+"Italy" = "Italy";
+"RomeDescription" = "A historic city filled with ancient ruins, vibrant piazzas, and world-famous cuisine.";
+"activity27" = "Colosseum Visit";
+"activity28" = "Vatican Tour";
+"activity29" = "Roman Cuisine Experience";
+
+/* -------- Queenstown (id:9) -------- */
+"Queenstown" = "Queenstown";
+"NewZealand" = "New Zealand";
+"QueenstownDescription" = "Adventure capital of New Zealand, known for bungee jumping, skiing, and breathtaking landscapes.";
+"activity30" = "Bungee Jumping";
+"activity31" = "Skiing";
+"activity32" = "Lake Cruises";
+
+/* -------- Serengeti (id:10) -------- */
+"Serengeti" = "Serengeti";
+"Tanzania" = "Tanzania";
+"SerengetiDescription" = "World-famous for safari adventures and the Great Migration of wildlife.";
+"activity33" = "Safari Tours";
+"activity34" = "Wildlife Photography";
+"activity35" = "Hot Air Balloon Ride";
+
+/* -------- Niagara Falls (id:11) -------- */
+"NiagaraFalls" = "Niagara Falls";
+"CanadaUSA" = "Canada USA";
+"NiagaraFallsDescription" = "A natural wonder on the US-Canada border, offering stunning views and boat rides.";
+"activity36" = "Maid of the Mist Ride";
+"activity37" = "Observation Deck Tour";
+"activity38" = "Night Illumination Show";
+
+/* -------- Lake Tahoe (id:12) -------- */
+"LakeTahoe" = "Lake Tahoe";
+"USA" = "USA";
+"LakeTahoeDescription" = "A year-round destination for skiing, hiking, and lakeside relaxation.";
+"activity39" = "Skiing";
+"activity40" = "Hiking Trails";
+"activity41" = "Lake Cruises";
+
+/* -------- Varanasi (id:13) -------- */
+"Varanasi" = "Varanasi";
+"India" = "India";
+"VaranasiDescription" = "The spiritual capital of India, known for ghats, Ganga Aarti, and sacred temples.";
+"activity42" = "Ganga Aarti";
+"activity43" = "Boat Ride on Ganges";
+"activity44" = "Temple Tour";
+
+/* -------- Kathmandu (id:14) -------- */
+"Kathmandu" = "Kathmandu";
+"Nepal" = "Nepal";
+"KathmanduDescription" = "A cultural and spiritual hub surrounded by the Himalayas.";
+"activity45" = "Himalayan Trek";
+"activity46" = "Stupa Visits";
+"activity47" = "Local Market Tour";
+
+/* -------- Machu Picchu (id:15) -------- */
+"MachuPicchu" = "Machu Picchu";
+"Peru" = "Peru";
+"MachuPicchuDescription" = "The lost city of the Incas, a UNESCO heritage site and trekking wonder.";
+"activity48" = "Inca Trail Hike";
+"activity49" = "Sun Gate View";
+"activity50" = "Guided Tour";
+
+/* -------- Tuscany (id:16) -------- */
+"Tuscany" = "Tuscany";
+"Italy" = "Italy";
+"TuscanyDescription" = "Rolling hills, vineyards, and charming medieval towns in Italy’s countryside.";
+"activity51" = "Wine Tasting";
+"activity52" = "Countryside Cycling";
+"activity53" = "Vineyard Tour";
+
+
+"ThereIsNoData" = "There is no data";
+"NoData" = "No Data";
+
+"select" = "Select";
+"taxInfo" = "All taxes and fees included";
+"totalPrice" = "Total price";
+"bookNow" = "Book Now";
+"startingTime" = "Starting time";
+"date" = "Date";
+"participants" = "Participants";
+"adult" = "Adult";
+"Category" = "Category";
+"InputYourEmail" = "Input Your Email";
+"ForgotYourPassword" = "Forgot Your Password";
+"submit" = "Submit";
+
+"BookingSuccessfully" = "Booking Successfully";
+"GetEverythingReadyUntilItTimeToGoOnTrip" = "Get everything ready until it's time to go on a trip!";
+ "ExploreOtherPlaces" = "Explore Other Places";
+"Pushnotification" = "Push Notification";
+"Wishlist" = "Wishlist";
+"AddNow" = "Add Now";
+"NoWishlist" = "No Wishlist";
+"YourWishlistWaitingFilledWithFavorites" = "Your wishlist is waiting to be filled with favorites!";
+
+"PrivacyPolicy" = "Privacy Policy";
+"TermsCondition" = "Terms & Condition";
+"ContactUs" = "Contact Us";
+"Logout" = "Logout";
+"PleaseEnterEmail" = "Please enter email";
+"PleaseEnterPassword" = "Please enter password";
+"Error" = "Error";
+"Success" = "Success";
+
+"CreateYourAccount" = "Create Your Account";
+"WhatYourName" = "What's is your name?";
+"Fullname" = "Fullname";
+"EnterFullName" = "Enter Full Name";
+"Email" = "Email";
+"EnterYourEmail" = "Enter Your Email";
+"CreatePassword" = "Create a password";
+"EnterYourPassword" = "Enter Your Password";
+"PasswordValidationMessage" = "Your password must include at least one symbol and 8 or more characters long";
+"Create" = "Create";
+"PleaseEnterYourName" = "Please Enter your fullname";
+"Travista" = "Travista";
+"SplashMessage" = "Travel made simple, memories made beautiful";
+"Logout" = "Logout";
+"AreYouSureYouWantToLogout" = "Are you sure you want to logout?";
+"Cancel" = "Cancel";
+"PackageDescription" = "Package Description";
+"Bookings" = "Bookings";
+"NoBooking" = "No Booking";
+"NoBookingMessages" = "Your booking is waiting to be filled with favorites!";

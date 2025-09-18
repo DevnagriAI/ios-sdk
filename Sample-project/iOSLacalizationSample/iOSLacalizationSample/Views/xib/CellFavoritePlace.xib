@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CellFavoritePlace" id="gTV-IL-0wX" customClass="CellFavoritePlace" customModule="iOSLacalizationSample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="266"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="230" height="266"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uPf-z4-8hs">
+                        <rect key="frame" x="0.0" y="0.0" width="230" height="266"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bali-kuta-beach" translatesAutoresizingMaskIntoConstraints="NO" id="FmC-1C-yJH">
+                                <rect key="frame" x="0.0" y="0.0" width="230" height="266"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="edg-Dj-t11">
+                                <rect key="frame" x="0.0" y="133" width="230" height="133"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="J0Y-Af-c3Y">
+                                <rect key="frame" x="14" y="219.33333333333334" width="202" height="36.666666666666657"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bali, Indonesio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCk-OM-7Fe">
+                                        <rect key="frame" x="0.0" y="0.0" width="202" height="17.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bali, Indonesio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjc-ki-RTe">
+                                        <rect key="frame" x="0.0" y="19.333333333333314" width="202" height="17.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="10"/>
+                                        <color key="textColor" white="1" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="edg-Dj-t11" secondAttribute="bottom" id="Cdh-y5-kIh"/>
+                            <constraint firstAttribute="bottom" secondItem="J0Y-Af-c3Y" secondAttribute="bottom" constant="10" id="NVb-Me-j4X"/>
+                            <constraint firstItem="FmC-1C-yJH" firstAttribute="leading" secondItem="uPf-z4-8hs" secondAttribute="leading" id="ROt-Nw-uU1"/>
+                            <constraint firstItem="FmC-1C-yJH" firstAttribute="top" secondItem="uPf-z4-8hs" secondAttribute="top" id="Vze-z9-gxe"/>
+                            <constraint firstItem="J0Y-Af-c3Y" firstAttribute="leading" secondItem="uPf-z4-8hs" secondAttribute="leading" constant="14" id="a9V-Am-JCc"/>
+                            <constraint firstItem="edg-Dj-t11" firstAttribute="height" secondItem="uPf-z4-8hs" secondAttribute="height" multiplier="0.5" id="exg-VJ-5Bf"/>
+                            <constraint firstItem="edg-Dj-t11" firstAttribute="leading" secondItem="uPf-z4-8hs" secondAttribute="leading" id="fAP-PI-tK8"/>
+                            <constraint firstAttribute="trailing" secondItem="edg-Dj-t11" secondAttribute="trailing" id="i1Y-OI-DjB"/>
+                            <constraint firstAttribute="trailing" secondItem="FmC-1C-yJH" secondAttribute="trailing" id="nfB-Ks-tgl"/>
+                            <constraint firstAttribute="trailing" secondItem="J0Y-Af-c3Y" secondAttribute="trailing" constant="14" id="w4K-F1-Gxd"/>
+                            <constraint firstAttribute="bottom" secondItem="FmC-1C-yJH" secondAttribute="bottom" id="x7j-q2-tbc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="uPf-z4-8hs" secondAttribute="bottom" id="31I-sD-VYd"/>
+                <constraint firstItem="uPf-z4-8hs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="SAu-1z-CIk"/>
+                <constraint firstAttribute="trailing" secondItem="uPf-z4-8hs" secondAttribute="trailing" id="kSD-aX-7il"/>
+                <constraint firstItem="uPf-z4-8hs" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="z7b-fz-qpn"/>
+            </constraints>
+            <size key="customSize" width="230" height="266"/>
+            <connections>
+                <outlet property="imgThumbnail" destination="FmC-1C-yJH" id="CvO-ux-Yx4"/>
+                <outlet property="lblCountry" destination="Sjc-ki-RTe" id="xdA-oj-KSr"/>
+                <outlet property="lblPlace" destination="VCk-OM-7Fe" id="KVY-Kx-uLZ"/>
+                <outlet property="viewContainer" destination="uPf-z4-8hs" id="JRx-xp-1ho"/>
+            </connections>
+            <point key="canvasLocation" x="163.35877862595419" y="95.774647887323951"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Rectangle" width="1572" height="1600"/>
+        <image name="bali-kuta-beach" width="4000" height="6000"/>
+    </resources>
+</document>
