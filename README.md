@@ -11,7 +11,7 @@ You can install the SDK manually.
 **Do note**: The language selection screen needs to be designed by the client. We only empower localisation of the app.
 
 # Manual Installation
-Download the latest release from https://github.com/DevnagriAI/dota-sdk-ios/releases 
+Download the latest framework from https://github.com/DevnagriAI/ios-sdk
 Add DevnagriSdk.xcframework in Xcode as linked binary to your target.
 
 # Sign the framework
@@ -40,9 +40,9 @@ The Apple store will reject your app if it includes simulator binaries. Therefor
 # Compatibility
 This SDK requires base language as english. Other base language will not supported by this SDK
 
-- **iOS 13.0+** (Primary SDK functionality)
+- **iOS 15.0+** (Primary SDK functionality)
 - **Swift 5.0 or later**
-- Compatible with **Xcode 13.0+**
+- Compatible with **Xcode 15.0+**
 
 ## Import Requirements
 
@@ -162,7 +162,7 @@ DevnagriSDK.shared.getTranslationsOfDictionary(dictionary: dict) { translatedDic
 }
 ```
 
-### **Get Translations of Api response Json** ###
+### **Get Translations of Json Object** ###
 ```swift
 import DevnagriSdk
 
@@ -190,7 +190,7 @@ DevnagriSDK.shared.refreshSubscriptionDetail()
 ```swift
 import DevnagriSdk
 
-DevnagriSDK.shared.setMaxRecursionCount(count: 50)
+DevnagriSDK.shared.setMaxRecursionCount(count: 10) //Number of attempt to get the translations if not received.
 DevnagriSDK.shared.setRecursionDurationInSeconds(seconds: 30)
 ```
 
