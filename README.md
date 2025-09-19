@@ -40,9 +40,10 @@ The Apple store will reject your app if it includes simulator binaries. Therefor
 # Compatibility
 This SDK requires base language as english. Other base language will not supported by this SDK
 
-- **iOS 15.0+** (Primary SDK functionality)
+- **iOS 15.0+** (Minimum Supported Version)
 - **Swift 5.0 or later**
-- Compatible with **Xcode 15.0+**
+- Compatible with **Xcode 16.0+**
+- SDK Build with **Xcode 16.4+**
 
 ## Import Requirements
 
