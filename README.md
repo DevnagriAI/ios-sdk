@@ -19,24 +19,6 @@ Add DevnagriSdk.xcframework in Xcode as linked binary to your target.
 Select project target and click general select in framework,libraries,and Embedded Content and select *DevnagriSdk.xcframwork* if not selected 
 than choose **Embed -> Embed & Sign.**
 
-
-**Optional for development**
-
-The Apple store will reject your app if it includes simulator binaries. Therefore, a script to strip the extra binaries needs to be run before you upload the app. To do this, go to Build Phases and add a Run Script section by clicking the + symbol. Copy and paste the following script:
-
-      FRAMEWORK="DevnagriSDK"
-      FRAMEWORK_EXECUTABLE_PATH="${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/$FRAMEWORK.framework/$FRAMEWORK"
-      EXTRACTED_ARCHS=()
-      for ARCH in $ARCHS
-      do
-         lipo -extract "$ARCH" "$FRAMEWORK_EXECUTABLE_PATH" -o "$FRAMEWORK_EXECUTABLE_PATH-$ARCH"
-         EXTRACTED_ARCHS+=("$FRAMEWORK_EXECUTABLE_PATH-$ARCH")
-      done
-      lipo -o "$FRAMEWORK_EXECUTABLE_PATH-merged" -create "${EXTRACTED_ARCHS[@]}"
-      rm "${EXTRACTED_ARCHS[@]}"
-      rm "$FRAMEWORK_EXECUTABLE_PATH"
-      mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
-
 # Compatibility
 This SDK requires base language as english. Other base language will not supported by this SDK
 
@@ -47,7 +29,7 @@ This SDK requires base language as english. Other base language will not support
 
 ## Import Requirements
 
-To use DevNagri SDK in your Swift files, you must import the framework:
+To use DevnagriSdk SDK in your Swift files, you must import the framework:
 
 ```swift
 import DevnagriSdk
@@ -80,7 +62,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 )}
 ```
-- `apiKey`: Your DevNagri API key (required)
+- `apiKey`: Your DevnagriSdk API key (required)
 - `updateStringsTime`: Automatic translation update interval in minutes (optional, minimum 10)
 - `completionHandler`: Callback with initialization status and message
 
