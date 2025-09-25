@@ -19,13 +19,21 @@ Add DevnagriSdk.xcframework in Xcode as linked binary to your target.
 Select project target and click general select in framework,libraries,and Embedded Content and select *DevnagriSdk.xcframwork* if not selected 
 than choose **Embed -> Embed & Sign.**
 
-# Compatibility
-This SDK requires base language as english. Other base language will not supported by this SDK
-
+# Compatibility 
 - **iOS 15.0+** (Minimum Supported Version)
 - **Swift 5.0 or later**
 - Compatible with **Xcode 16.0+**
 - SDK Build with **Xcode 16.4+**
+
+# Base Language Requirement
+- The SDK requires English (en) as the base language. Other base languages are not supported.
+- Your project must include an `en.lproj/Localizable.strings` file as the default resource.
+- If the base language file is missing, translations will not initialize properly.
+
+# NSLocalizedString Requirement
+
+- `NSLocalizedString` provides translations only for strings defined inside the `en.lproj/Localizable.strings` file.
+- Adding `import DevnagriSdk` at the top of the file is required when using the `NSLocalizedString` replacement functionality, as the SDK extends the localization system to work with its dynamic translation features.
 
 ## Import Requirements
 
@@ -37,7 +45,7 @@ import DevnagriSdk
 
 **Note**: This import is **required** when using `NSLocalizedString` method replacement functionality, as the SDK extends the localization system to work with SDK's dynamic translation features.
 
-The SDK override the functionality of NSLocalisedString by default. You just need to import the DevnagriSdk to the file where you want NSLocalisedString to be override by the SDK.
+The SDK override the functionality of `NSLocalisedString` by default. You just need to import the DevnagriSdk to the file where you want NSLocalisedString to be override by the SDK.
 
 ---
 
