@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DevnagriSdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import CommonCrypto
 import CoreData
 @_exported import DevnagriSdk
@@ -63,9 +63,15 @@ public class DevnagriNetworkReachability {
   public var connection: DevnagriSdk.DevnagriNetworkReachability.Connection {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
+  #endif
   @objc deinit
 }
 extension DevnagriSdk.DevnagriNetworkReachability {
@@ -94,7 +100,9 @@ extension DevnagriSdk.DevnagriNetworkReachability {
     get
   }
   final public var isSdkSubscribed: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func initSdk(apiKey: Swift.String, updateStringsTime inMinutes: Swift.Int? = nil, completionHandler: @escaping DevnagriSdk.DevnagriSDK.InitBlock)
+  #endif
   final public func updateTranslations(completionHandler: @escaping DevnagriSdk.DevnagriSDK.TranslatedLanguageBlock)
   final public func refreshSubscriptionDetail()
   final public func setMaxRecursionCount(count: Swift.Int)
@@ -107,8 +115,9 @@ extension DevnagriSdk.DevnagriSDK {
   final public func getTranslationOfStrings(sentences: [Swift.String], callback: @escaping ([Swift.String]) -> Swift.Void)
   final public func getTranslationsOfDictionary(dictionary: [Swift.String : Swift.String], callback: @escaping ([Swift.String : Swift.String]) -> Swift.Void)
   final public func getTranslationOfDictionary(dict: Foundation.NSDictionary, ignoreKeys arrKeysToIgnore: [Swift.String], enableCache: Swift.Bool = false, callback: @escaping (Any) -> Swift.Void)
-  final public func getAllSupportableLanguages(callBack: ([DevnagriSdk.DevnagriSupportingLanguageItem]) -> Swift.Void)
+  final public func getAllSupportableLanguages(callBack: @escaping ([DevnagriSdk.DevnagriSupportingLanguageItem]) -> Swift.Void)
   final public func getCurrentApplicationLanguageCode() -> Swift.String
+  final public func clearTranslationCache()
 }
 @_hasMissingDesignatedInitializers public class DevnagriSupportingLanguageItem {
   public var language: Swift.String
@@ -117,147 +126,213 @@ extension DevnagriSdk.DevnagriSDK {
 }
 public func NSLocalizedString(_ key: Swift.String, comment: Swift.String) -> Swift.String
 extension ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func NSLocalizedString(_ key: Swift.String, tableName: Swift.String? = nil, bundle: Foundation.Bundle = Bundle.main, value: Swift.String = "", comment: Swift.String) -> Swift.String
+  #endif
 }
-@_inheritsConvenienceInitializers @objc(DevnagriApiCallingInfo) public class DevnagriApiCallingInfo : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias DevnagriApiCallingInfoCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(DevnagriApiCallingInfo) nonisolated public class DevnagriApiCallingInfo : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias DevnagriApiCallingInfoCoreDataPropertiesSet = Foundation.NSSet
 extension DevnagriSdk.DevnagriApiCallingInfo {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<DevnagriSdk.DevnagriApiCallingInfo>
-  @objc @NSManaged dynamic public var apiType: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var apiType: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var apiUrl: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var apiUrl: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var calledAt: Foundation.Date? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var calledAt: Foundation.Date? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var languageCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var languageCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var subscription: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var subscription: Swift.Bool {
     @objc get
     @objc set
   }
 }
-@_inheritsConvenienceInitializers @objc(DevnagriScreenshot) public class DevnagriScreenshot : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias DevnagriScreenshotCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(DevnagriScreenshot) nonisolated public class DevnagriScreenshot : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias DevnagriScreenshotCoreDataPropertiesSet = Foundation.NSSet
 extension DevnagriSdk.DevnagriScreenshot {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<DevnagriSdk.DevnagriScreenshot>
-  @objc @NSManaged dynamic public var createdOn: Foundation.Date? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var createdOn: Foundation.Date? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var identifier: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var identifier: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var mode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var mode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var screenName: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var screenName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var serverUrl: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var serverUrl: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var uniqueId: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var uniqueId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var updatedOn: Foundation.Date? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var updatedOn: Foundation.Date? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var uploadStatus: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var uploadStatus: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
-@_inheritsConvenienceInitializers @objc(DevnagriSubscriptionInfo) public class DevnagriSubscriptionInfo : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias DevnagriSubscriptionInfoCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(DevnagriSubscriptionInfo) nonisolated public class DevnagriSubscriptionInfo : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias DevnagriSubscriptionInfoCoreDataPropertiesSet = Foundation.NSSet
 extension DevnagriSdk.DevnagriSubscriptionInfo {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<DevnagriSdk.DevnagriSubscriptionInfo>
-  @objc @NSManaged dynamic public var createdOn: Foundation.Date? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var createdOn: Foundation.Date? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var enableAutomaticScreenshot: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var enableAutomaticScreenshot: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var enableManualScreenshot: Swift.Bool {
+  @objc @NSManaged nonisolated dynamic public var enableManualScreenshot: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var isSubscription: Swift.Bool {
+  @objc @NSManaged nonisolated dynamic public var isSubscription: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var message: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var message: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var shouldLogMessage: Swift.Bool {
+  #endif
+  @objc @NSManaged nonisolated dynamic public var shouldLogMessage: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var status: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var status: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
-@_inheritsConvenienceInitializers @objc(DevnagriSupportedLanguage) public class DevnagriSupportedLanguage : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias DevnagriSupportedLanguageCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(DevnagriSupportedLanguage) nonisolated public class DevnagriSupportedLanguage : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias DevnagriSupportedLanguageCoreDataPropertiesSet = Foundation.NSSet
 extension DevnagriSdk.DevnagriSupportedLanguage {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<DevnagriSdk.DevnagriSupportedLanguage>
-  @objc @NSManaged dynamic public var code: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var code: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var name: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var name: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
-@_inheritsConvenienceInitializers @objc(DevnagriTranslation) public class DevnagriTranslation : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias DevnagriTranslationCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(DevnagriTranslation) nonisolated public class DevnagriTranslation : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias DevnagriTranslationCoreDataPropertiesSet = Foundation.NSSet
 extension DevnagriSdk.DevnagriTranslation {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<DevnagriSdk.DevnagriTranslation>
-  @objc @NSManaged dynamic public var key: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var key: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var sentence: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var sentence: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var translation: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var translation: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var translation_language_code: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var translation_language_code: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
 }
+public typealias DevnagriSdkdbFoundationFrameworkSet = Foundation.NSSet
+public typealias DevnagriSdkdbCoreDataFrameworkManagedObject = CoreData.NSManagedObject
 @available(*, unavailable, renamed: "Connection")
 extension DevnagriSdk.DevnagriNetworkReachability.NetworkStatus : Swift.Equatable {}
 @available(*, unavailable, renamed: "Connection")
