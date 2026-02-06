@@ -310,6 +310,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2377,15 +2384,12 @@
                     ],
                     "usr": "s:Sa"
                   }
-                ],
-                "typeAttributes": [
-                  "noescape"
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:11DevnagriSdk0A3SDKC26getAllSupportableLanguages8callBackyySayAA0A22SupportingLanguageItemCGXE_tF",
-            "mangledName": "$s11DevnagriSdk0A3SDKC26getAllSupportableLanguages8callBackyySayAA0A22SupportingLanguageItemCGXE_tF",
+            "usr": "s:11DevnagriSdk0A3SDKC26getAllSupportableLanguages8callBackyySayAA0A22SupportingLanguageItemCGc_tF",
+            "mangledName": "$s11DevnagriSdk0A3SDKC26getAllSupportableLanguages8callBackyySayAA0A22SupportingLanguageItemCGc_tF",
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Final",
@@ -2414,6 +2418,29 @@
             "declAttributes": [
               "Final",
               "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearTranslationCache",
+            "printedName": "clearTranslationCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DevnagriSdk0A3SDKC21clearTranslationCacheyyF",
+            "mangledName": "$s11DevnagriSdk0A3SDKC21clearTranslationCacheyyF",
+            "moduleName": "DevnagriSdk",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -2978,6 +3005,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -2986,7 +3014,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -3035,6 +3066,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Nonisolated",
               "Override"
             ],
             "init_kind": "Designated"
@@ -3097,6 +3129,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -3200,6 +3233,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -3303,6 +3337,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -3406,6 +3441,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -3501,6 +3537,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -3569,6 +3606,7 @@
         "moduleName": "DevnagriSdk",
         "objc_name": "DevnagriApiCallingInfo",
         "declAttributes": [
+          "Nonisolated",
           "AccessControl",
           "ObjC"
         ],
@@ -3663,6 +3701,20 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3673,6 +3725,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -3681,7 +3734,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -3690,6 +3746,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -3698,7 +3755,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -3747,6 +3807,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Nonisolated",
               "Override"
             ],
             "init_kind": "Designated"
@@ -3809,6 +3870,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -3912,6 +3974,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -4015,6 +4078,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -4118,6 +4182,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -4221,6 +4286,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -4324,6 +4390,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -4427,6 +4494,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -4530,6 +4598,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -4614,6 +4683,7 @@
         "moduleName": "DevnagriSdk",
         "objc_name": "DevnagriScreenshot",
         "declAttributes": [
+          "Nonisolated",
           "AccessControl",
           "ObjC"
         ],
@@ -4708,6 +4778,20 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4718,6 +4802,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -4726,7 +4811,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -4735,6 +4823,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -4743,7 +4832,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -4792,6 +4884,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Nonisolated",
               "Override"
             ],
             "init_kind": "Designated"
@@ -4854,6 +4947,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -4949,6 +5043,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -5028,6 +5123,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -5107,6 +5203,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -5194,6 +5291,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -5289,6 +5387,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -5376,6 +5475,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -5460,6 +5560,7 @@
         "moduleName": "DevnagriSdk",
         "objc_name": "DevnagriSubscriptionInfo",
         "declAttributes": [
+          "Nonisolated",
           "AccessControl",
           "ObjC"
         ],
@@ -5554,6 +5655,20 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5564,6 +5679,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -5572,7 +5688,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -5581,6 +5700,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -5589,7 +5709,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5638,6 +5761,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Nonisolated",
               "Override"
             ],
             "init_kind": "Designated"
@@ -5700,6 +5824,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -5803,6 +5928,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -5887,6 +6013,7 @@
         "moduleName": "DevnagriSdk",
         "objc_name": "DevnagriSupportedLanguage",
         "declAttributes": [
+          "Nonisolated",
           "AccessControl",
           "ObjC"
         ],
@@ -5981,6 +6108,20 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5991,6 +6132,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -5999,7 +6141,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -6008,6 +6153,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -6016,7 +6162,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -6065,6 +6214,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Nonisolated",
               "Override"
             ],
             "init_kind": "Designated"
@@ -6127,6 +6277,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -6230,6 +6381,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -6333,6 +6485,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -6436,6 +6589,7 @@
             "moduleName": "DevnagriSdk",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -6520,6 +6674,7 @@
         "moduleName": "DevnagriSdk",
         "objc_name": "DevnagriTranslation",
         "declAttributes": [
+          "Nonisolated",
           "AccessControl",
           "ObjC"
         ],
@@ -6614,6 +6769,20 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -6624,6 +6793,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -6632,7 +6802,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -6641,6 +6814,7 @@
         "declKind": "Import",
         "moduleName": "DevnagriSdk",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -6649,7 +6823,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "DevnagriSdk"
+        "moduleName": "DevnagriSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -6910,28 +7087,35 @@
     {
       "filePath": "\/Users\/vijayjangid\/Documents\/Projects\/iOS\/sb-devnagri\/devnagri-ios-sdk\/DevnagriSdk\/DevnagriSdk\/Source\/DevnagriSdk.swift",
       "kind": "StringLiteral",
-      "offset": 2196,
+      "offset": 1697,
+      "length": 33,
+      "value": "\"com.devnagri.translation.access\""
+    },
+    {
+      "filePath": "\/Users\/vijayjangid\/Documents\/Projects\/iOS\/sb-devnagri\/devnagri-ios-sdk\/DevnagriSdk\/DevnagriSdk\/Source\/DevnagriSdk.swift",
+      "kind": "StringLiteral",
+      "offset": 2926,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vijayjangid\/Documents\/Projects\/iOS\/sb-devnagri\/devnagri-ios-sdk\/DevnagriSdk\/DevnagriSdk\/Source\/DevnagriSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 2283,
+      "offset": 3013,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vijayjangid\/Documents\/Projects\/iOS\/sb-devnagri\/devnagri-ios-sdk\/DevnagriSdk\/DevnagriSdk\/Source\/DevnagriSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 10180,
+      "offset": 11831,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vijayjangid\/Documents\/Projects\/iOS\/sb-devnagri\/devnagri-ios-sdk\/DevnagriSdk\/DevnagriSdk\/Source\/DevnagriSdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 35370,
+      "offset": 37254,
       "length": 5,
       "value": "false"
     },
@@ -7168,10 +7352,17 @@
     },
     {
       "filePath": "\/Users\/vijayjangid\/Documents\/Projects\/iOS\/sb-devnagri\/devnagri-ios-sdk\/DevnagriSdk\/DevnagriSdk\/Source\/CoreData\/CoredataManagedObject.swift",
+      "kind": "Dictionary",
+      "offset": 735,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vijayjangid\/Documents\/Projects\/iOS\/sb-devnagri\/devnagri-ios-sdk\/DevnagriSdk\/DevnagriSdk\/Source\/CoreData\/CoredataManagedObject.swift",
       "kind": "StringLiteral",
-      "offset": 339,
-      "length": 21,
-      "value": "\"CoreDataSerialQueue\""
+      "offset": 802,
+      "length": 27,
+      "value": "\"com.devnagri.entity.cache\""
     },
     {
       "filePath": "\/Users\/vijayjangid\/Documents\/Projects\/iOS\/sb-devnagri\/devnagri-ios-sdk\/DevnagriSdk\/DevnagriSdk\/Source\/LocalModal_devnagri.swift",
